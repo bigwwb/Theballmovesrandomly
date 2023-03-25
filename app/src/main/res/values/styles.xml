@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#00BCD4</item>
+        <item name="colorAccent">#D40000</item>
+    </style>
+    <!--RandomLayout 自定义属性-->
+    <declare-styleable name="RandomView">
+        <!--声明我们的属性，名称为default_size,取值类型为尺寸类型（dp,px等）-->
+        <attr name="max_ball_number" format="integer"></attr>
+        <attr name="circle_color" format="color"></attr>
+    </declare-styleable>
+</resources>
